@@ -292,7 +292,7 @@ def update_views_gauge(continents, sports, ages, genders):
 
     total_views = filtered_df['Views'].sum()
 
-    title = f"Total Views (in millions) for {', '.join(continents)}"
+    title = f"Total Views for {', '.join(continents)}"
     if sports:
         title += f" - Sports: {', '.join(sports)}"
     if ages:
