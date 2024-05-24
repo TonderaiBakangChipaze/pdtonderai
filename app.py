@@ -60,6 +60,7 @@ df = pd.DataFrame(data).sample(frac=0.5, random_state=42)
 external_stylesheets = ['https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/flatly/bootstrap.min.css']
 
 app = Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 app.layout = html.Div([
     html.H3("2024 Paris Fun Olympic Games Dashboard", className="text-center my-4"),
