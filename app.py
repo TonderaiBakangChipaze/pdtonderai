@@ -111,8 +111,8 @@ app.layout = html.Div([
                 dcc.Tab(label='Home', children=[
                     html.Div(id='summary-stats', className="d-flex justify-content-around"),
                     html.Div([
-                        dcc.Graph(id='viewership-visits-bar', style={"width": "70%"}),
-                        dcc.Graph(id='views-gauge', style={"width": "30%"}),
+                        dcc.Graph(id='viewership-visits-bar', style={"width": "65%"}),
+                        dcc.Graph(id='views-gauge', style={"width": "35%"}),
                     ], className="d-flex justify-content-around"),
                 ], className="bg-light", style={"padding": "10px"}),
 
